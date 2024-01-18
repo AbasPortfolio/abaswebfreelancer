@@ -1001,6 +1001,9 @@ body.darkTheme{
         filter: none;
     }
     @media screen and (min-width: 768px){
+        .home__image{
+            width: 260px;
+        }
         .services__container{
             grid-template-columns: repeat(2, 250px);
         }
